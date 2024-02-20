@@ -48,7 +48,7 @@ npm install
 
 Create a .env file at the root of your project and add essential environment variables like database connection details and secret keys. Refer to the config.js file for guidance on required variables.
 
-44. **Start the development server:**
+4. **Start the development server:**
 
 
 npm run dev

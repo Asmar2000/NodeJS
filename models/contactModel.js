@@ -1,6 +1,12 @@
+const { default: mongoose } = require('mongoose');
 const moongose = require('mongoose');
 
 const contactSchema = moongose.Schema({
+  user_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+    ref: 'User'
+  },
   name: {
     type: String,
     required: [true, 'Name is required']

@@ -1,6 +1,11 @@
 /**
  * @swagger
  * components:
+ *   securitySchemes:
+ *     BearerAuth:
+ *       type: http
+ *       scheme: bearer
+ *       bearerFormat: JWT
  *   schemas:
  *     Contact:
  *       type: object
@@ -44,6 +49,8 @@
  *   get:
  *     summary: Get all contacts
  *     tags: [Contacts]
+ *     security:
+ *       - BearerAuth: []
  *     responses:
  *       200:
  *         description: Successful response with the list of contacts
@@ -56,6 +63,8 @@
  *   post:
  *     summary: Create a new contact
  *     tags: [Contacts]
+ *     security:
+ *       - BearerAuth: []
  *     requestBody:
  *       required: true
  *       content:
@@ -75,6 +84,8 @@
  *   get:
  *     summary: Get a contact by ID
  *     tags: [Contacts]
+ *     security:
+ *       - BearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -94,6 +105,8 @@
  *   put:
  *     summary: Update a contact by ID
  *     tags: [Contacts]
+ *     security:
+ *       - BearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -119,6 +132,8 @@
  *   delete:
  *     summary: Delete a contact by ID
  *     tags: [Contacts]
+ *     security:
+ *       - BearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id

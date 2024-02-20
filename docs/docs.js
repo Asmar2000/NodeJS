@@ -179,42 +179,26 @@
  *     User:
  *       type: object
  *       required:
- *         - user_id
- *         - name
+ *         - username
  *         - email
- *         - phone
+ *         - password
  *       properties:
- *         user_id:
- *           type: string
- *           description: The ID of the user
- *         name:
+ *         username:
  *           type: string
  *           description: The name of the user
  *         email:
  *           type: string
  *           description: The email of the user
- *         phone:
+ *         password:
  *           type: string
- *           description: The phone number of the user
- *         createdAt:
- *           type: string
- *           format: date
- *           description: The date the user was created
- *         updatedAt:
- *           type: string
- *           format: date
- *           description: The date the user was last updated
+ *           description: The password of the user
  *     Contact:
  *       type: object
  *       required:
- *         - user_id
  *         - name
  *         - email
  *         - phone
  *       properties:
- *         user_id:
- *           type: string
- *           description: The ID of the user associated with the contact
  *         name:
  *           type: string
  *           description: The name of the contact
@@ -224,14 +208,6 @@
  *         phone:
  *           type: string
  *           description: The phone number of the contact
- *         createdAt:
- *           type: string
- *           format: date
- *           description: The date the contact was created
- *         updatedAt:
- *           type: string
- *           format: date
- *           description: The date the contact was last updated
  * 
  *     
  */

@@ -1,7 +1,7 @@
 Markdown
 # Contact Manager App
 
-[![Node.js version](https://img.shields.io/badge/node-v-%5Env%20-%3Bgreen.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/node-v-%5Env%20-%3Bgreen.svg)](https://nodejs.org/)
 [![MongoDB version](https://img.shields.io/badge/mongodb-v-%3Bgreen.svg)](https://www.mongodb.com/)
 
 **Description:**

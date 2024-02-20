@@ -37,18 +37,18 @@ This NodeJS/Express application implements a CRUD (Create, Read, Update, Delete)
 
    ```bash
    git clone https://github.com/Asmar2000/NodeJS.git
-Use code with caution.
-Install dependencies:
+
+2. **Install dependencies:**
 
 
 cd NodeJS
 npm install
 
-Configure environment variables:
+3. **Configure environment variables:**
 
 Create a .env file at the root of your project and add essential environment variables like database connection details and secret keys. Refer to the config.js file for guidance on required variables.
 
-Start the development server:
+44. **Start the development server:**
 
 
 npm run dev
